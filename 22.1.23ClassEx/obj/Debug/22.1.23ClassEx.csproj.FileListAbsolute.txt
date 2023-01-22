@@ -1,0 +1,8 @@
+C:\Users\User\source\Projects\Semester3\Haim\22.1.23\22.1.23ClassEx\bin\Debug\22.1.23ClassEx.exe.config
+C:\Users\User\source\Projects\Semester3\Haim\22.1.23\22.1.23ClassEx\bin\Debug\22.1.23ClassEx.exe
+C:\Users\User\source\Projects\Semester3\Haim\22.1.23\22.1.23ClassEx\bin\Debug\22.1.23ClassEx.pdb
+C:\Users\User\source\Projects\Semester3\Haim\22.1.23\22.1.23ClassEx\obj\Debug\22.1.23ClassEx.csproj.AssemblyReference.cache
+C:\Users\User\source\Projects\Semester3\Haim\22.1.23\22.1.23ClassEx\obj\Debug\22.1.23ClassEx.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\source\Projects\Semester3\Haim\22.1.23\22.1.23ClassEx\obj\Debug\22.1.23ClassEx.csproj.CoreCompileInputs.cache
+C:\Users\User\source\Projects\Semester3\Haim\22.1.23\22.1.23ClassEx\obj\Debug\22.1.23ClassEx.exe
+C:\Users\User\source\Projects\Semester3\Haim\22.1.23\22.1.23ClassEx\obj\Debug\22.1.23ClassEx.pdb
