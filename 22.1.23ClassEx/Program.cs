@@ -11,14 +11,17 @@ namespace _22._1._23ClassEx
         static void Main(string[] args)
         {
 
-            StringClass newClass = new StringClass("word");
+            //StringClass newClass = new StringClass();
 
-            newClass.printIt();
+            //PlayWithThread newThreadClass = new PlayWithThread();
+            //newThreadClass.Run();
 
+            WriteRandomNumbers writeRandom = new WriteRandomNumbers();
+            writeRandom.callTheThreads();
 
-            FileClass1 fileHandler = new FileClass1("C:\\Users\\User\\source\\Projects\\Semester3\\Haim\\filesCreation\\file.txt");
-            fileHandler.CreateFile();
-            fileHandler.WriteToFile("This is a new line of text being added to the file.");
+            //FileClass1 fileHandler = new FileClass1("C:\\Users\\User\\source\\Projects\\Semester3\\Haim\\filesCreation\\file.txt");
+            //fileHandler.CreateFile();
+            //fileHandler.WriteToFile("This is a new line of text being added to the file.");
 
         }
     }

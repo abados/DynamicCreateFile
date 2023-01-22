@@ -44,9 +44,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FileClass1.cs" />
+    <Compile Include="PlayWithThread.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringClass.cs" />
+    <Compile Include="WriteRandomNumbers.cs" />
+    <Compile Include="WriteToFileWithThreads.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
