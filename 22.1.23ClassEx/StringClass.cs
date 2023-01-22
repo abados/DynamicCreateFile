@@ -10,30 +10,58 @@ namespace _22._1._23ClassEx
 {
     public class StringClass
     {
-        Thread thread1;
-        Thread thread2;
-        string letter1 = "A";
-        string letter2 = "B";
+    
 
-        public StringClass()
+        public void Run()
         {
+            Count c1 = new Count("A", 3000);
+            Count c2 = new Count("B", 500);
             
-            thread1 = new Thread(printIt);
-            thread1.Start(letter1);
-            thread2 = new Thread(printIt);
-            thread2.Start(letter2);
         }
 
-        string Word { get; set; }
 
-        public void printIt(object letter)
+        
+
+        class Count
         {
-            string letterString = (string)letter;
-            for (int i = 0; i < 10; i++)
+            private static bool stopThreads = false;
+            Thread thread;
+            public Count(string label, int sleep)
             {
-                Console.WriteLine(i + " " + letterString);
-                Thread.Sleep(1000);
+                Label = label;
+                SleepTime = sleep;
+                thread = new Thread(Run);
+                thread.Start();
+            }
+
+            public string Label { get; set; }
+            public int SleepTime { get; set; }
+
+            public void Run()
+            {
+                int i = 0;
+                while (!stopThreads)
+                {
+                    Console.WriteLine(i + " " + Label);
+                    i++;
+                    if (i % 10 == 0)
+                    {
+                        Console.WriteLine("Enter a number:");
+                        int userInput = int.Parse(Console.ReadLine());
+                        if (userInput == 0)
+                        {
+                            //Environment.Exit(0);
+                            stopThreads = true;
+                        }
+                    }
+                    Thread.Sleep(SleepTime);
+                }
             }
         }
+
+
+           
+        }
+
     }
-}
+

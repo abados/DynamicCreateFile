@@ -11,7 +11,8 @@ namespace _22._1._23ClassEx
 
         public WriteToInfinite() {
 
-    
+        StringClass stringClass = new StringClass();
+            stringClass.Run();
 
         }
     }

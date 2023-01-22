@@ -47,9 +47,12 @@
     <Compile Include="PlayWithThread.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Race.cs" />
     <Compile Include="StringClass.cs" />
+    <Compile Include="ThreadRace .cs" />
     <Compile Include="WriteRandomNumbers.cs" />
     <Compile Include="WriteToFileWithThreads.cs" />
+    <Compile Include="WriteToInfinite.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
